@@ -2,7 +2,7 @@
 
 This project will be built in clear iterations. Each version reflects real capability growth.
 
-## v1: CICD v1 (Minimum Agent Reviewer)
+## v1: CI/CD Agent v1 (Minimum Agent Reviewer)
 ### What it includes
 - Parse PR diffs for Terraform, Kubernetes YAML, Dockerfiles, and application code.
 - Run a single LLM reasoning step to identify risky patterns.
@@ -22,7 +22,7 @@ This project will be built in clear iterations. Each version reflects real capab
 - Dockerising tools
 
 
-## v1.5: CICD v1.5 (Structured Multi-Agent Refactor)
+## v1.5: CI/CD Agent v1.5 (Structured Multi-Agent Refactor)
 ### What it includes
 - Split the reviewer into 4 focused agents:
   - Code Safety Agent
@@ -43,7 +43,7 @@ This project will be built in clear iterations. Each version reflects real capab
 - Modular design patterns for LLM systems
 
 
-## v2: CICD v2 (Infra-Aware Reviewer)
+## v2: CI/CD Agent v2 (Infra-Aware Reviewer)
 ### What it includes
 - Terraform plan runner (init, plan, show-json).
 - Kubernetes dry-run validation using a real cluster or kind cluster.
@@ -63,7 +63,7 @@ This project will be built in clear iterations. Each version reflects real capab
 - Drift detection strategies
 - Policy design
 
-## v3: CICD v3 (Security-Enhanced Reviewer)
+## v3: CI/CD Agent v3 (Security-Enhanced Reviewer)
 ### What it includes
 - Supply-chain scanning:
   - Trivy
@@ -81,7 +81,7 @@ This project will be built in clear iterations. Each version reflects real capab
 - Vulnerability summarisation
 - SBOM workflows
 
-## v4: CICD v4 (Enterprise Aware: OpenShift Edition)
+## v4: CI/CD Agent v4 (Enterprise Aware: OpenShift Edition)
 ### What it includes
 - Recognition of OpenShift resources:
   - Routes
@@ -98,7 +98,7 @@ This project will be built in clear iterations. Each version reflects real capab
 - OpenShift architecture
 - Enterprise-grade resource validation
 
-## v5: CICD Platform (Full Autonomous Reviewer)
+## v5: CI/CD Agent Platform (Full Autonomous Reviewer)
 ### What it includes
 - Multi-stage agent pipeline with:
   - Supervisor agent
