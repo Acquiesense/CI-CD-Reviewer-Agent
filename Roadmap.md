@@ -7,7 +7,7 @@ This project will be built in clear iterations. Each version reflects real capab
 - Parse PR diffs for Terraform, Kubernetes YAML, Dockerfiles, and application code.
 - Run a single LLM reasoning step to identify risky patterns.
 - Basic OPA/Conftest policy checks on Terraform and Kubernetes files.
-- Output a summarized review as PR comments.
+- Output a summarised review as PR comments.
 
 ### Purpose
 - Establish the foundation.
@@ -19,7 +19,7 @@ This project will be built in clear iterations. Each version reflects real capab
 - Diff parsing
 - Basic OPA/Conftest
 - First LLM pipeline
-- Dockerizing tools
+- Dockerising tools
 
 
 ## v1.5: CICD v1.5 (Structured Multi-Agent Refactor)
@@ -78,7 +78,7 @@ This project will be built in clear iterations. Each version reflects real capab
 
 ### Skills learned
 - Container scanning
-- Vulnerability summarization
+- Vulnerability summarisation
 - SBOM workflows
 
 ## v4: CICD v4 (Enterprise Aware: OpenShift Edition)
@@ -127,8 +127,15 @@ This project will be built in clear iterations. Each version reflects real capab
 
 ## v6: Dashboard and General Compatibility Layer
 ### What it includes
-- A minimal web dashboard that displays PR issues, policy violations, and suggested fixes.
-- A unified compatibility layer so the reviewer can work with GitHub, GitLab, Bitbucket, and generic CI runners.
+- A minimal web dashboard that displays:
+  -  PR issues
+  -  Policy Violations
+  -  Suggested Fixes.
+- A unified compatibility layer so the reviewer can work with:
+  - GitHub
+  - GitLab
+  - Bitbucket
+  - Generic CI runners.
 - Support for multiple manifest types beyond Terraform/Kubernetes/Docker, such as Helm charts and generic YAML.
 - Optional API endpoint to trigger reviews manually or integrate with other tools.
 
@@ -138,8 +145,4 @@ This project will be built in clear iterations. Each version reflects real capab
 - Move toward a production-ready platform instead of a single CI workflow.
 
 ### Skills learned
-- Basic web dashboard development (Next.js or Python FastAPI frontend-lite).
-- Building compatibility adapters for different CI systems.
-- Designing a small API surface for external triggers.
-- Packaging review results into a structured, UI-friendly output.
-
+Not much but it'll make it prettier
